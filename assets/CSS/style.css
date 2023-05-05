@@ -44,6 +44,7 @@ html {
     height: 45vh;
     background-color: white;
     padding: 2vh;
+    /* object-fit: contain; */
 }
 
 nav {
@@ -63,6 +64,8 @@ nav {
     border-radius: 10%;
     padding: 2vh;
     gap: 3vh;
+    color: white;
+    font-size: 1.5rem;
 }
 
 .presentation h1,
@@ -108,7 +111,7 @@ footer {
 }
 
 .bi-facebook,
-.bi-messenger {
+.bi-instagram {
     padding-right: 2vh;
 }
 
@@ -122,7 +125,7 @@ footer {
 
 .agreements {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .logo_evars {
@@ -130,16 +133,11 @@ footer {
     height: 20vh;
 }
 
-@media screen and (max-width: 767px) {
-    .classic-contacts {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 3vh;
-    }
 
-    .agreements {
-        justify-content: center;
-    }
+.classic-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
 }
